@@ -1,4 +1,3 @@
-# Day 1
 
 import cv2
 import numpy as np
@@ -21,7 +20,7 @@ plt.show()
 pixels = image_rgb.reshape((-1, 3))
 print(f"Pixel data shape: {pixels.shape}")
 
-# Day 2
+
 
 from sklearn.cluster import KMeans
 
@@ -37,7 +36,7 @@ print("Dominant color clusters (RGB):")
 for idx, color in enumerate(colors):
     print(f"Color {idx + 1}: {color}")
 
-# Day 3
+
 
     from collections import Counter
 
@@ -55,7 +54,7 @@ for idx, color in enumerate(colors):
         color = colors[cluster_idx]
         print(f"{idx + 1}. RGB: {color}, Pixels: {count}")
 
-# Day 4
+
 
 # Step 10: Create a color palette bar using matplotlib
 
